@@ -1,0 +1,21 @@
+<!-- rename-file-popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rename File</title>
+</head>
+<body>
+  <h2>Rename File</h2>
+  <form id="renameFileForm">
+    <label for="directoryName">Directory Name:</label>
+    <input type="text" id="directoryName" name="directoryName" required><br>
+    <label for="oldFileName">Old File Name:</label>
+    <input type="text" id="oldFileName" name="oldFileName" required><br>
+    <label for="newFileName">New File Name:</label>
+    <input type="text" id="newFileName" name="newFileName" required><br>
+    <button type="submit">Rename File</button>
+  </form>
+  <div id="renameMessage"></div>
+  <script src="rename-file-script.js"></script>
+</body>
+</html>
